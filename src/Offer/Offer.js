@@ -1,6 +1,9 @@
 import React from 'react'
 import { CardDeck, Container, Card, Button } from 'react-bootstrap'
 import offer1 from './offer1.jpg'
+import offer2 from './offer2.jpg'
+import offer3 from './offer3.jpg'
+import offer4 from './offer4.jpg'
 function Offer() {
     return (
         <div> 
@@ -8,7 +11,7 @@ function Offer() {
             <h1 className="text-center mt-5">We Offer</h1>
             <CardDeck className="text-center">
                 <Card bg="dark" text="light">
-                    <Card.Img variant="top" src={offer1} />
+                    <Card.Img variant="top" src={offer2} />
                     <Card.Body>
                         <Card.Title>BPSC Prelims TEST SERIES</Card.Title>
                         <Card.Text>
@@ -27,7 +30,7 @@ function Offer() {
                     </Card.Footer>
                 </Card>
                 <Card bg="dark" text="light">
-                    <Card.Img variant="top" src={offer1} />
+                    <Card.Img variant="top" src={offer3} />
                     <Card.Body>
                         <Card.Title>Bihar SI mains Test Series</Card.Title>
                         <Card.Text>
@@ -43,7 +46,7 @@ function Offer() {
                     </Card.Footer>
                 </Card>
                 <Card bg="dark" text="light">
-                    <Card.Img variant="top" src={offer1} />
+                    <Card.Img variant="top" src={offer4} />
                     <Card.Body>
                         <Card.Title variant='primary'>Bihar SI Prelims Test Series</Card.Title>
                         <Card.Text>

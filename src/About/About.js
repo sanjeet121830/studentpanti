@@ -11,7 +11,7 @@ function About() {
                         <div className="intro-content">
                             <p>Hi All I am Dharmendra Kumar Nishad i did my matriculation from my villgae and afte that i move to Samastipur Bihar and after that i move to patna for preparing competitive exam</p>
                             
-
+                            <button type="button" className="btn btn-fb"><i className="fa fa-facebook left"></i> Facebook</button>
                         </div>
                     </Col>
                     <Col className="d-flex">
